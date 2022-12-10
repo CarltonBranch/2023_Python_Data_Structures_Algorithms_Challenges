@@ -30,3 +30,4 @@ planets = ['mercury', 'venus', ['earth'], 'mars', [
 
 
 print(flatten(planets))
+#output: ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
