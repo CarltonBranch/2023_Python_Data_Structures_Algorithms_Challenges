@@ -1,8 +1,8 @@
-import unittest
 """Problem statement: 'Write a method to replace all spaces in a string with '%20'
         You may assume that the string has sufficient space at the end to hold the additional
         characters.
     """
+import unittest
 
 
 def url_ify(url: str):
@@ -27,8 +27,14 @@ def url_ify(url: str):
 
 # test cases
 class TestURLifymethod(unittest.TestCase):
+    """Testing class
+    Args:
+        unittest (_type_): _description_
+    """
 
     def test(self):
+        """Unit test cases
+        """
         self.assertEqual(
             url_ify('http://www.the wonderful world of disney.com'), 'http://www.the%20wonderful%20world%20of%20disney.com')
         self.assertEqual(
